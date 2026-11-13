@@ -28,6 +28,7 @@ function slugify(title) {
 
 function convertBody(body) {
 	return body
+		.replace(/^```(\w+)/gm, (_m, lang) => "```" + lang.toLowerCase())
 		.replace(/^::: +details(.*)$/gm, (_m, title) => `<details>\n<summary>${title.trim() || "展开"}</summary>\n`)
 		.replace(/^:::$/gm, "</details>");
 }

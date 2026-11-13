@@ -108,7 +108,7 @@ const z = x + y;
 
 在这个代码片段中，我们可以将x + y替换为它的值5，而不会影响程序的行为：
 
-```javascript
+```js
 const x = 2;
 const y = 3;
 const z = 5;
@@ -137,7 +137,7 @@ const z = 5;
 
 ### 易于测试
 
-```javascript
+```js
 function add(x, y) {
   return x + y;
 }
@@ -151,7 +151,7 @@ assert.equal(add(5, 7), 12);
 
 ### 可读性更好
 
-```javascript
+```js
 const numbers = [1, 2, 3, 4, 5];
 
 // 命令式
@@ -168,7 +168,7 @@ const sum = numbers.reduce((acc, cur) => acc + cur, 0);
 
 ### 可维护性更好
 
-```javascript
+```js
 // 命令式
 let count = 0;
 for (let i = 0; i < numbers.length; i++) {
@@ -185,7 +185,7 @@ const count = numbers.filter(num => num % 2 === 0).length;
 
 ### 可并行处理
 
-```javascript
+```js
 const numbers = [1, 2, 3, 4, 5];
 
 // 命令式
