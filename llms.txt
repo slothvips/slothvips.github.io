@@ -1,0 +1,29 @@
+﻿# slothluo
+> slothluo 的个人博客，随手分享技术、工具和日常。
+
+## Key Pages
+- [主页](https://slothvips.github.io/)
+- [归档](https://slothvips.github.io/archive/)
+- [关于我](https://slothvips.github.io/about/)
+
+## Recent Posts
+- [寻路算法](https://slothvips.github.io/posts/xun-lu-suan-fa/)
+- [如何获取dom节点上绑定的所有事件](https://slothvips.github.io/posts/ru-he-huo-qu-dom-jie-dian-shang-bang-ding-de-suo-you-shi-jian/)
+- [过期的副作用](https://slothvips.github.io/posts/guo-qi-de-fu-zuo-yong/)
+- [读<<最重要的事情只有一件>>](https://slothvips.github.io/posts/du-zui-zhong-yao-de-shi-qing-zhi-you-yi-jian/)
+- [聊一聊Promise](https://slothvips.github.io/posts/liao-yi-liao-promise/)
+- [团队代码风格统一方案](https://slothvips.github.io/posts/tuan-dui-dai-ma-feng-ge-tong-yi-fang-an/)
+- [接手了一个laya1.x的项目,完整的接手流程](https://slothvips.github.io/posts/jie-shou-le-yi-ge-laya1-x-de-xiang-mu-wan-zheng-de-jie-shou-liu-cheng/)
+- [用大白话让你明白虚拟DOM的DIFF算法](https://slothvips.github.io/posts/yong-da-bai-hua-rang-ni-ming-bai-xu-ni-dom-de-diff-suan-fa/)
+- [手把手教你撸vue3的响应系统](https://slothvips.github.io/posts/shou-ba-shou-jiao-ni-lu-vue3-de-xiang-ying-xi-tong/)
+- [前来领教一下函数式编程的魅力](https://slothvips.github.io/posts/qian-lai-ling-jiao-yi-xia-han-shu-shi-bian-cheng-de-mei-li/)
+- [使用TS+Vue3+element-plus封装一个命令式弹窗组件](https://slothvips.github.io/posts/shi-yong-ts-vue3-element-plus-feng-zhuang-yi-ge-ming-ling-shi-tan-chuang-zu-jian/)
+- [记录一次线上问题排查](https://slothvips.github.io/posts/ji-lu-yi-ci-xian-shang-wen-ti-pai-cha/)
+- [Worker线程](https://slothvips.github.io/posts/worker-xian-cheng/)
+- [遍历DOM节点的方式又增加咯~](https://slothvips.github.io/posts/bian-li-dom-jie-dian-de-fang-shi-you-zeng-jia-ge/)
+- [基于axios的接口级防重复请求封装案例](https://slothvips.github.io/posts/ji-yu-axios-de-jie-kou-ji-fang-chong-fu-qing-qiu-feng-zhuang-an-li/)
+- [带你读红宝书之生成器](https://slothvips.github.io/posts/dai-ni-du-hong-bao-shu-zhi-sheng-cheng-qi/)
+- [带你读红宝书之迭代器模式](https://slothvips.github.io/posts/dai-ni-du-hong-bao-shu-zhi-die-dai-qi-mo-shi/)
+- [记一次Vue组件循环依赖问题](https://slothvips.github.io/posts/ji-yi-ci-vue-zu-jian-xun-huan-yi-lai-wen-ti/)
+- [leetcode刷题日记](https://slothvips.github.io/posts/leetcode-shua-ti-ri-ji/)
+- [设计模式初见](https://slothvips.github.io/posts/she-ji-mo-shi-chu-jian/)
