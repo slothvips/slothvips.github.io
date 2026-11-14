@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "欢迎来到 PandaBox。这里记录前端、源码阅读和一些生活。",
+	content: "欢迎来到 slothluo。随便分享点东西。",
 
 	// 是否允许用户关闭公告
 	closable: true,

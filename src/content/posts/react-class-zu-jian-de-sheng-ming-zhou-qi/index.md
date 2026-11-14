@@ -74,11 +74,11 @@ static getDerivedStateFromProps(props, state)
 
 是唯一必须去实现的方法,毕竟视图怎么显示是需要自己去定义的对吧.它是一个纯函数,他的返回值可以依赖于props和state进行变化.可以返回以下类型:
 
-- React 元素。通常通过 JSX 创建。例如，<div /> 会被 React 渲染为 DOM 节点，<MyComponent /> 会被 React 渲染为自定义组件，无论是 <div /> 还是 <MyComponent /> 均为 React 元素。
+- React 元素。通常通过 JSX 创建。例如，`<div />` 会被 React 渲染为 DOM 节点，`<MyComponent />` 会被 React 渲染为自定义组件，无论是 `<div />` 还是 `<MyComponent />` 均为 React 元素。
 - 数组或 fragments。 使得 render 方法可以返回多个元素。欲了解更多详细信息，请参阅 fragments 文档。
 - Portals。可以渲染子节点到不同的 DOM 子树中。欲了解更多详细信息，请参阅有关 portals 的文档
 - 字符串或数值类型。它们在 DOM 中会被渲染为文本节点
-- 布尔类型或 null。什么都不渲染。（主要用于支持返回 test && <Child /> 的模式，其中 test 为布尔类型。)
+- 布尔类型或 null。什么都不渲染。（主要用于支持返回 `test && <Child />` 的模式，其中 test 为布尔类型。)
 
 如果shouldComponentUpdate()方法里返回false的情况下,则不会去调用render.
 

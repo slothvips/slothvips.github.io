@@ -19,7 +19,9 @@ draft: false
 ## code
  talk is cheap, show me the code.
 
- ```js
-
-
- ```
+<iframe
+  src="/demo/find-path/"
+  title="寻路算法交互演示"
+  loading="lazy"
+  style="width:100%;height:560px;border:1px solid var(--line-divider);border-radius:0.75rem;"
+></iframe>

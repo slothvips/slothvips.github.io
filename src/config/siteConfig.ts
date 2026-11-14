@@ -42,28 +42,19 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "PandaBox",
+	title: "slothluo",
 
 	// 站点副标题
-	subtitle: "panda 的二进制 & 生活",
+	subtitle: "slothluo 的随手记录",
 
 	// 站点 URL
 	site_url: "https://slothvips.github.io",
 
 	// 站点描述
-	description:
-		"panda 的技术博客：前端、源码阅读、工程实践与日常记录。",
+	description: "slothluo 的个人博客，随手分享技术、工具和日常。",
 
 	// 站点关键词
-	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
-	],
+	keywords: ["slothluo", "AI", "全栈", "技术博客", "工具", "随笔"],
 
 	// 主题色
 	themeColor: {
@@ -91,7 +82,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		{
 			// 图标文件路径
-			src: "/favicon/firefly-32.png",
+			src: "/favicon/favicon-light-32.png",
 			// 可选，指定主题 'light' | 'dark'
 			// theme: "light",
 			// 可选，图标大小
@@ -112,12 +103,11 @@ export const siteConfig: SiteConfig = {
 		// 使用 Astro 图标库时不需要设置 valueDark，图标会自动跟随主题亮暗色切换
 		logo: {
 			type: "image",
-			value: "assets/images/logo/firefly-light.png",
-			valueDark: "assets/images/logo/firefly-dark.png",
-			alt: "🍀",
+			value: "assets/images/logo/slothluo.png",
+			alt: "slothluo",
 		},
 		// 导航栏标题
-		title: "Firefly Blog",
+		title: "slothluo",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -132,7 +122,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01",
+	siteStartDate: "2022-06-21",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
@@ -261,14 +251,14 @@ export const siteConfig: SiteConfig = {
 
 	// ── Bilibili配置 ──────────────────────────────────
 	bilibili: {
-		// 你的 Bilibili 用户 UID
-		uid: "38932988",
+		// 你的 Bilibili 用户 UID，留空表示未配置
+		uid: "",
 	},
 
 	// ── 番组计划bangumi配置 ──────────────────────────────────
 	bangumi: {
-		// Bangumi用户ID
-		userId: "1143164",
+		// Bangumi用户ID，留空表示未配置
+		userId: "",
 		// 数据模式：static=构建时获取，dynamic=客户端实时获取
 		// static 模式在构建时获取数据并静态渲染，部署后数据不更新
 		// dynamic 模式在浏览器中实时请求 API，始终显示最新数据
@@ -291,8 +281,8 @@ export const siteConfig: SiteConfig = {
 
 	// ── VNDB配置 ──────────────────────────────────
 	vndb: {
-		// VNDB 用户 ID
-		userId: "u358128",
+		// VNDB 用户 ID，留空表示未配置
+		userId: "",
 		// 数据模式：static=构建时获取，dynamic=客户端实时获取
 		// static 模式在构建时获取数据并静态渲染，部署后数据不更新
 		// dynamic 模式在浏览器中实时请求 API，始终显示最新数据
@@ -311,10 +301,10 @@ export const siteConfig: SiteConfig = {
 
 	// ── MyAnimeList配置 ──────────────────────────────────
 	mal: {
-		// MyAnimeList 用户名（列表需为公开状态，私密列表无法读取）
-		username: "cuteleaf",
+		// MyAnimeList 用户名（列表需为公开状态，私密列表无法读取），留空表示未配置
+		username: "",
 		// MyAnimeList Client ID，在 https://myanimelist.net/apiconfig 注册免费应用后获取
-		clientId: "	0ef34371450f9c6c809deaadec6aa8f3",
+		clientId: "",
 		// MAL API 地址
 		apiUrl: "https://api.myanimelist.net/v2",
 		// 动画条目详情页地址，末尾需要带 /

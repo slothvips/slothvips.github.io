@@ -33,11 +33,8 @@ yarn.lock
 .idea
 *.iml
 
-# docs
-Firefly-docs/
-
-# lite 版本
-Firefly-Lite/
+# local tool data
+.openchamber/
 
 cache/
 package/

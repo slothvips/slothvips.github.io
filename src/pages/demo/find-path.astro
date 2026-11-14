@@ -1,0 +1,25 @@
+---
+import FindPathDemo from "@/components/demo/FindPathDemo.svelte";
+---
+
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>寻路算法 · 交互演示</title>
+	</head>
+	<body>
+		<FindPathDemo client:load />
+	</body>
+</html>
+
+<style is:global>
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		background: #fff;
+	}
+</style>
